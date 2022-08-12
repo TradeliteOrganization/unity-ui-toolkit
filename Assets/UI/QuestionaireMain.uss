@@ -1,0 +1,36 @@
+:root {
+    --font-size: 36px;
+    --pane-color: rgb(148, 181, 188);
+    --element-spacer: 20px;
+    --id-box-radius: 10px;
+    --question-box-height: 140px;
+}
+
+#MainView {
+    flex-grow: 1; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: var(--pane-color);
+}
+
+#CentralView {
+    flex-grow: 1; 
+    flex-shrink: 0; 
+    width: 60%;
+}
+
+#Timer, #QuestionText, #Answer_0, #Answer_1, #Answer_2, #Answer_3 {
+    margin-top: var(--element-spacer); 
+    border-radius: var(--id-box-radius);
+}
+
+#Timer {
+    background-color: white;
+}
+
+#QuestionText {
+    font-size: var(--font-size); 
+    background-color: white;
+    padding: var(--id-box-radius);
+    height: var(--question-box-height);
+}

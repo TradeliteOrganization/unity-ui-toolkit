@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/QuestionaireChoice.uss" />
+    <ui:VisualElement>
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="Text" />
+        <ui:Label text="A" display-tooltip-when-elided="true" name="Id" />
+        <ui:VisualElement name="Triangle" />
+    </ui:VisualElement>
+</ui:UXML>
