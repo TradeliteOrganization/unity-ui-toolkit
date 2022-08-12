@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="QuestionaireChoice" src="project://database/Assets/UI/QuestionaireChoice.uxml?fileID=9197481963319205126&amp;guid=d227f15386708453b8e9cffa9f672702&amp;type=3#QuestionaireChoice" />
+    <Style src="project://database/Assets/UI/QuestionaireMain.uss?fileID=7433441132597879392&amp;guid=287a8586be90f4bc4acfb483138d027c&amp;type=3#QuestionaireMain" />
+    <ui:VisualElement name="MainView">
+        <ui:VisualElement name="CentralView">
+            <ui:ProgressBar name="Timer" high-value="120" />
+            <ui:Label display-tooltip-when-elided="true" name="QuestionText" />
+            <ui:Instance template="QuestionaireChoice" name="Answer_0" />
+            <ui:Instance template="QuestionaireChoice" name="Answer_1">
+                <AttributeOverrides element-name="Id" text="B" />
+            </ui:Instance>
+            <ui:Instance template="QuestionaireChoice" name="Answer_2">
+                <AttributeOverrides element-name="Id" text="C" />
+            </ui:Instance>
+            <ui:Instance template="QuestionaireChoice" name="Answer_3">
+                <AttributeOverrides element-name="Id" text="D" />
+            </ui:Instance>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
