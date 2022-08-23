@@ -1,0 +1,46 @@
+:root {
+    --id-color: rgb(142, 189, 232);
+
+    display: none;
+    height: 200px;
+  
+    padding-left: 4px;
+    padding-right: 4px;
+
+    scale: 1.0 0.0;
+
+    transform-origin: 50% 0%;
+    transition-property: scale;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    transition-delay: 1.5s
+}
+
+#DescriptionContainer {
+    border-radius: 10px 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#DescriptionTextContainer {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+#ContinueButton {
+    background-color: var(--id-color);
+    color: white;
+    height: 50px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin: 0;
+    font-size: 24px;
+}
+
+.Selected {
+    display: flex;
+    scale: 1.0 1.0;
+}
