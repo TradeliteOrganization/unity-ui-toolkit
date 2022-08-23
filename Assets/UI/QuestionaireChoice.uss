@@ -4,13 +4,15 @@
     --id-box-width: 50px;
     --id-box-radius: 10px;
 
-    transition-property: translate;
-    transition-duration: 0.2s;
-    transition-timing-function: linear;
+    transition-property: translate, opacity, width;
+    transition-duration: 0.2s, 0.5s, 0.2s;
+    transition-delay: 0s, 0s, 1.3s;
+    transition-timing-function: linear, ease-in, linear;
 }
 
 #Id {
     background-color: var(--id-color);
+    color: white;
     font-size: var(--font-size); 
     position: absolute;
     top: 0;
@@ -51,6 +53,12 @@
     border-right-color: var(--id-color); 
 }
 
+#AnswerDescription {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+}
+
 .Good, .Bad {
     translate: -20px 0;
 }
@@ -67,3 +75,10 @@
     display: flex;
 }
 
+.Hide{
+    opacity: 0;
+}
+
+.Removed {
+    display: none;
+}

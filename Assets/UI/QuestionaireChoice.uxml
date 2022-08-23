@@ -1,6 +1,8 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
-    <Style src="project://database/Assets/UI/QuestionaireChoice.uss" />
-    <ui:VisualElement>
+    <ui:Template name="AnswerDescription" src="project://database/Assets/UI/AnswerDescription.uxml?fileID=9197481963319205126&amp;guid=592318746fa6a4e50afc77f94ede79d7&amp;type=3#AnswerDescription" />
+    <Style src="project://database/Assets/UI/QuestionaireChoice.uss?fileID=7433441132597879392&amp;guid=6db70cf16a1d54148af2b47eafac2864&amp;type=3#QuestionaireChoice" />
+    <ui:Instance template="AnswerDescription" name="AnswerDescription" />
+    <ui:VisualElement name="Container">
         <ui:Label text="Label" display-tooltip-when-elided="true" name="Text" />
         <ui:Label text="A" display-tooltip-when-elided="true" name="Id" />
         <ui:VisualElement name="Triangle" />
