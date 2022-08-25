@@ -19,7 +19,7 @@
     width: 60%;
 }
 
-#Timer, #QuestionText, #Answer_0, #Answer_1, #Answer_2, #Answer_3 {
+.Spacer {
     margin-top: var(--element-spacer); 
     border-radius: var(--id-box-radius);
 }
