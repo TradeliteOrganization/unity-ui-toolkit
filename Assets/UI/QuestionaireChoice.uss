@@ -4,10 +4,11 @@
     --id-box-width: 50px;
     --id-box-radius: 10px;
 
-    transition-property: translate, opacity, width;
-    transition-duration: 0.2s, 0.5s, 0.2s;
-    transition-delay: 0s, 0s, 1.3s;
-    transition-timing-function: linear, ease-in, linear;
+    width: 100%;
+    transition-property: translate, opacity, top;
+    transition-duration: 0.2s, 0.5s, 0.3s;
+    transition-delay: 0s, 0s, 0.5s;
+    transition-timing-function: linear, ease-in, ease-out;
 }
 
 #Id {
@@ -82,3 +83,4 @@
 .Removed {
     display: none;
 }
+

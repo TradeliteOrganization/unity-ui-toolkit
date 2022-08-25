@@ -268,4 +268,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bd048c8c853143a4982eb00e51d36d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questionChoice: {fileID: 0}
+  questionChoice: {fileID: 9197481963319205126, guid: d227f15386708453b8e9cffa9f672702, type: 3}
+  questions:
+  - {fileID: 11400000, guid: c58a17c8ccf7b49a1bd9515f455d8675, type: 2}
+  - {fileID: 11400000, guid: 7ed7a87cda2ca43fc8bcdc41995b405e, type: 2}
+  - {fileID: 11400000, guid: 2285d9dd56e95418d9dfaa5296844fa4, type: 2}
+  - {fileID: 11400000, guid: 9c170a377cbb64467be25557acbe4cb0, type: 2}
+  answers:
+  - {fileID: 11400000, guid: ac4b2855e6cb94b11ab7c2289721f1b6, type: 2}
+  - {fileID: 11400000, guid: ad55ad27aab1a4add971685bb4b8ec85, type: 2}
+  - {fileID: 11400000, guid: e8a54d69f001f4875972c179ed9e8042, type: 2}
+  - {fileID: 11400000, guid: 5d265c7d655b740559b91595e2744a08, type: 2}
